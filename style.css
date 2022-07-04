@@ -1,0 +1,78 @@
+body{
+    font-family: 'Poppins', sans-serif;
+    margin: 0px;
+}
+h1{
+    font-size: 50px;
+}
+.color-orange{
+    color: orange;
+}
+.home{
+    display: flex;
+    height: 70vh;
+    background: url(images/top-banner.png);
+    background-repeat: no-repeat;
+    margin-bottom: 100px;
+    
+}
+.container{
+    width: 50%;
+    padding-left: 100px;
+}
+img{
+    width: 80%;
+}
+p{
+    font-size: 20px;
+}
+.button{
+    text-decoration: none;
+    padding: 15px 40px;
+    background-color: orangered;
+    border-radius: 10px;
+    color: white;
+    font-weight: 600;
+
+}
+a:hover{
+    color: orangered;
+    background-color: white;
+    transition: 2s;
+    border: 2px solid orangered;
+}
+.middle{
+    display: flex;
+    height: 100%;
+    background-image: url(images/dream-bg.png);
+    background-repeat: no-repeat;
+    background-position: right;
+    margin-bottom: 100px;
+    
+}
+.flex_box{
+    display: flex;
+}
+.exp_items{
+    width: 80%;
+    margin: 5%;
+    box-shadow: 5px 7px 40px gray;
+    padding: 10px;
+    
+
+}
+.experience{
+    background-image: url(images/exp-bg.png);
+    background-repeat: no-repeat;
+    background-position: left;
+}
+#full-stack-web{
+    border-left: 10px solid orange;
+}
+#web-dev{
+    border-left: 10px solid blue;
+}
+h6{
+    font-size: large;
+    text-align: center;
+}
